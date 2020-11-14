@@ -29,8 +29,8 @@ do
 			$PWD/fecha.sh
 		;;
 
-		'fechuza')
-			$PWD/fecha.sh
+		'hora')
+			$PWD/hora.sh
 		;;
 
 		'buscar')
