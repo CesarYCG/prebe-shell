@@ -6,47 +6,46 @@ let opcion
 
 prompt="\e[91m"$HOSTNAME"\e[0m@\e[36m"$usuario"\e[0m {\e[92m"$PWD"\e[0m} > " 
 
-while [ "$opcion$" != "salir" ]
+while [ "$opcion" != "salir" ]
 do
-	echo -e "\e [32mLista de comandos: \e[0m"
 	echo -ne $prompt
 	read -e opcion
 
 	case $opcion in
 		'ayuda')
-			$PWD/ayuda.sh
+			bash $PWD/ayuda.sh
 		;;
 
 		'arbol')
-			$PWD/arbol.sh
+			bash $PWD/arbol.sh
 		;;
 
 		'infosis')
-			$PWD/infosis.sh
+			bash $PWD/infosis.sh
 		;;
 
 		'fecha')
-			$PWD/fecha.sh
+			bash $PWD/fecha.sh
 		;;
 
 		'hora')
-			$PWD/hora.sh
+			bash $PWD/hora.sh
 		;;
 
 		'buscar')
-			$PWD/buscar.sh
+			bash $PWD/buscar.sh
 		;;
 
 		'prebeplayer')
-			$PWD/prebeplayer.sh
+			bash $PWD/prebeplayer.sh
 		;;
 
 		'rockpaper')
-			$PWD/rockpaper.sh
+			bash $PWD/rockpaper.sh
 		;;
 
 		'creditos')
-			$PWD/creditos.sh
+			bash $PWD/creditos.sh
 		;;
 
 		'salir')
@@ -54,6 +53,5 @@ do
 
 	esac
 done
-echo "Ha salido de la prebeshell, ahi nos vidrios"
-
+echo "Ha salido de la prebeshell, ahi nos vidrios al raton"
 

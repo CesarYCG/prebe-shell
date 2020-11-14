@@ -1,7 +1,7 @@
 #!bin/bash
 
 #Muestra la hora al momento de consulta
-
+clear
 echo -e -n "La hora actual es: "
 cat /proc/driver/rtc | grep 'rtc_time' | grep "[0-9]*:[0-9]*:[0-9]*" -o
 #Cat nos permite concatenar salida con otros archivos

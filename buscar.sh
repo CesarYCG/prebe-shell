@@ -3,7 +3,7 @@
 #Por si te lo preguntas, este programa busca... archivos en una ruta
 verdeinicio="\e[32:30m"
 verdefin="\e[0:0m"
-
+clear
 
 echo -e "Por favor, dame el nombre del archivo"
 read archivo
@@ -12,6 +12,7 @@ read ruta
 
 cd ~ #Empezamos desde directorio de usuario
 cd ruta 2>/dev/null #Si no existe, atrapamos un error
+#El inicio de la ruta no lleva slash (/)
 if [ -d "$ruta" ]
 then
 	cd $ruta #Vamos a la ruta 
