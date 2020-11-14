@@ -112,13 +112,11 @@ else      #Aqui va toda la maraña de codigo si ya posee mgp123...
 			;;
 			#Reproduccion Aleatoria
 			2) clear
-								echo -e "${cmenu}     PODEROSOS COMANDOS PARA TU MUSICA      ${cmenuf}"
+				echo -e "${cmenu}     PODEROSOS COMANDOS PARA TU MUSICA      ${cmenuf}"
 				echo -e "${cmenu}--------------------------------------------${cmenuf}"
 				echo -e "${cmenu}D) Retrocede una cancion                    ${cmenuf}"
 				echo -e "${cmenu}F) Cancion siguiente                        ${cmenuf}"
 				echo -e "${cmenu}S) Pausa/Reanuda la cancio                  ${cmenuf}"
-				echo -e "${cmenu}3) Muestra tu repertorio musical            ${cmenuf}"
-				echo -e "${cmenu}4) Pausa/Reanuda la musica                  ${cmenuf}"
 				echo -e "${cmenu}B) Repite la cancion                        ${cmenuf}"
 				echo -e "${cmenu}+) Sube volumen                             ${cmenuf}"
 				echo -e "${cmenu}-) Baja el volumen                          ${cmenuf}"
