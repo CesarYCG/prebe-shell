@@ -44,7 +44,7 @@ while [ $intentos != 0 ]; do #mientras todavia tenga intentos
 			echo -e "\e[32mBienvenido. Accesando...\e[0m"
 			Sleep 2
 			
-			bash $PWD/prebeshell.sh
+			bash $PWD/PROLIN_CHIDO.sh
 			intentos=0;
 
 		else
