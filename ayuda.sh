@@ -20,9 +20,9 @@ echo -e "
 |             ||                                                       |
 |infosis      || Informacion del poderoso sistema :O                   |
 |             ||                                                       |
-|fecha        || Muestra fecha y hora                                  |
+|fecha        || Muestra la fecha actua                                |
 |             ||                                                       |
-|fechuza      || Muestra otra fecha y hora XD                          |
+|hora         || Muestra la hora actual                                |
 |             ||                                                       |
 |buscar       || Busca un archivo, necesita el nombre del archivo y el |
 |             || directorio donde va a realizarse la busqueda :3       |
@@ -32,7 +32,7 @@ echo -e "
 \e[33;44m|rockpaper    || Famoso juego de Piedra, Papel o Tijeras!              |\e[0m
 \e[33;44m|             ||                                                       |\e[0m
 \e[33;44m|creditos     || Muestra los nombres de los involucrados en este       |\e[0m
-\e[33;44m|             || bonito prebeshell :3                                  |\e[0m
+\e[33;44m|             || bonito PROLIN :3                                      |\e[0m
 \e[33;44m|             ||                                                       |\e[0m
 \e[33;44m|salir        || Te conduce a la salida de este proyecto.              |\e[0m
 \e[33;44m|             || Gracias por pasarte, vuelve pronto!                   |\e[0m
