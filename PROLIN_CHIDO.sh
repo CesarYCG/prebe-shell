@@ -53,5 +53,5 @@ do
 
 	esac
 done
-echo "Ha salido de la prebeshell, ahi nos vidrios al raton"
+echo "Ha salido de la PROLIN_CHIDA, ahi nos vidrios al raton"
 
