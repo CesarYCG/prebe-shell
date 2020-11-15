@@ -43,6 +43,10 @@ do
 		'rockpaper')
 			bash $PWD/rockpaper.sh
 		;;
+		
+		'ahorcado')
+			bash $PWD/ahorcado.sh
+		;;
 
 		'creditos')
 			bash $PWD/creditos.sh
