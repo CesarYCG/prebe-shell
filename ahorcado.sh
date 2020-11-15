@@ -34,3 +34,9 @@ let intentos--
 echo "$k"
 read -r xd
 done
+if [ "$intentos" = "0" ]
+then
+	echo -e "Haz perdido ):"
+else
+	echo -e "Alto crack en el Linux sos, haz acertado :)"
+fi
